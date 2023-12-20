@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Techno Diesel Polska. Odbudowa, renowacja, naprawa oraz produkcja kompletów tłokowych"
+    />
+    <meta
+      name="keywords"
+      content="Techno Diesel Polska, pary tłokowe, renowacja, naprawa"
+    />
+    <meta name="author" content="Artem Ohii" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Techno Diesel Polska</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/style.css?ver=12" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-176072406-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-176072406-1");
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="brand">
+          <!--
+                    <img src="images/logo.svg" alt="Лого" class="logo">
+                    -->
+          <object
+            type="image/svg+xml"
+            data="images/logo.svg"
+            height="42"
+            width="42"
+            class="logo"
+          ></object>
+          <div class="brand__text">
+            <h1 class="brand__title">Techno Diesel Polska</h1>
+            <span class="brand__subtitle">Pary tłokowe od A do Z</span>
+          </div>
+        </div>
+
+        <button class="menu-button">
+          <span class="menu-button__line"></span>
+        </button>
+
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item nav-item">
+              <a href="#about" class="menu__link nav-link">
+                <i class="fas fa-id-card"></i>
+                <span>O nas</span>
+              </a>
+            </li>
+
+            <li class="menu__item nav-item dropdown">
+              <a
+                class="menu__link nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="fas fa-cog"></i>Pary tłokowe
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#services">H-typ</a>
+                <a class="dropdown-item" href="#services">VE-typ</a>
+                <a class="dropdown-item" href="#services">A-typ</a>
+                <a class="dropdown-item" href="#services">P-typ</a>
+              </div>
+            </li>
+
+            <li class="menu__item nav-item">
+              <a href="#gallery" class="menu__link nav-link">
+                <i class="fas fa-image"></i>
+                <span>Galeria</span>
+              </a>
+            </li>
+
+            <li class="menu__item nav-item">
+              <a href="#contacts" class="menu__link nav-link">
+                <i class="fas fa-phone"></i>
+                <span>Kontakt</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="container">
+        <div class="hero__content row">
+          <h2 class="hero__title">Odbudowa i produkcja par tłokowych</h2>
+          <p class="hero__description">
+            Odbudowa, renowacja, naprawa oraz produkcja kompletów tłokowych do
+            pomp wtryskowych paliwa (Tłocznie Napędowe Wysokiego Ciśnienia -
+            TNWC). Wykonujemy pary (komplety) tłokowe na podstawie próbki
+            materiału (materiał do regeneracji) lub rysunku dostarczonego przez
+            Klienta. Gwarantujemy jakość produktów finalnych.
+          </p>
+          <div class="hero__contact">
+            <div class="">
+              <!--
+                        <div class="col-md-6 d-flex flex-column align-items-center">
+                            <a href="#" class="hero__button">
+                                <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="m8.75 17.612v4.638c0 .324.208.611.516.713.077.025.156.037.234.037.234 0 .46-.11.604-.306l2.713-3.692z"/>
+                                    <path d="m23.685.139c-.23-.163-.532-.185-.782-.054l-22.5 11.75c-.266.139-.423.423-.401.722.023.3.222.556.505.653l6.255 2.138 13.321-11.39-10.308 12.419 10.483 3.583c.078.026.16.04.242.04.136 0 .271-.037.39-.109.19-.116.319-.311.352-.53l2.75-18.5c.041-.28-.077-.558-.307-.722z"/>
+                                </svg>
+                                <span>Оставить заявку</span>
+                            </a>
+                            <a href="mailto:vovagrigorenko@mail.ua" class="hero__link">chuguevdizel@ukr.net</a>
+                        </div>
+                        -->
+              <div class="d-flex flex-column align-items-center">
+                <a href="tel:+48696420496" class="hero__button">
+                  <svg
+                    enable-background="new 0 0 578.106 578.106"
+                    version="1.1"
+                    viewBox="0 0 578.106 578.106"
+                    xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m577.83 456.13c1.225 9.385-1.635 17.545-8.568 24.48l-81.396 80.781c-3.672 4.08-8.465 7.551-14.381 10.404-5.916 2.857-11.729 4.693-17.439 5.508-0.408 0-1.635 0.105-3.676 0.309-2.037 0.203-4.689 0.307-7.953 0.307-7.754 0-20.301-1.326-37.641-3.979s-38.555-9.182-63.645-19.584c-25.096-10.404-53.553-26.012-85.376-46.818-31.823-20.805-65.688-49.367-101.59-85.68-28.56-28.152-52.224-55.08-70.992-80.783-18.768-25.705-33.864-49.471-45.288-71.299-11.425-21.828-19.993-41.616-25.705-59.364s-9.588-33.048-11.628-45.9-2.856-22.95-2.448-30.294 0.612-11.424 0.612-12.24c0.816-5.712 2.652-11.526 5.508-17.442s6.324-10.71 10.404-14.382l81.396-81.396c5.712-5.712 12.24-8.568 19.584-8.568 5.304 0 9.996 1.53 14.076 4.59s7.548 6.834 10.404 11.322l65.484 124.24c3.672 6.528 4.692 13.668 3.06 21.42s-5.1 14.28-10.404 19.584l-29.988 29.988c-0.816 0.816-1.53 2.142-2.142 3.978s-0.918 3.366-0.918 4.59c1.632 8.568 5.304 18.36 11.016 29.376 4.896 9.792 12.444 21.726 22.644 35.802s24.684 30.293 43.452 48.653c18.36 18.77 34.68 33.354 48.96 43.76 14.277 10.4 26.215 18.053 35.803 22.949s16.932 7.854 22.031 8.871l7.648 1.531c0.816 0 2.145-0.307 3.979-0.918 1.836-0.613 3.162-1.326 3.979-2.143l34.883-35.496c7.348-6.527 15.912-9.791 25.705-9.791 6.938 0 12.443 1.223 16.523 3.672h0.611l118.12 69.768c8.571 5.308 13.67 12.038 15.303 20.198z"
+                    />
+                  </svg>
+                  <span>Zadzwonić</span>
+                </a>
+                <a href="tel:+48696420496" class="hero__link"
+                  >+48 696 420 496</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gif d-sm-flex d-md-none">
+      <div class="container">
+        <img src="images/gif1.gif" class="image" alt="" />
+      </div>
+    </div>
+
+    <div class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2 class="about__title">O NAS</h2>
+            <p class="about__subtitle">Historia Firmy</p>
+
+            <p>
+              Firma Techno Diesel Polska, jako warsztat naprawczy, posiada
+              wieloletnie doświadczenie w regeneracji podzespołów wtryskowych
+              pomp paliwa zdobywane na rynkach zachodniej oraz wschodniej
+              Europy.
+            </p>
+            <p>
+              Wyposażenie warsztatów Techno Diesel Polska pozwala nie tylko
+              regenerować zużyte elementy, ale także produkować nowe części do
+              TNWC, co pozwala Nam konkurować cenowo oraz jakościowo z
+              producentami oryginalnych części, jak również ich chińskimi
+              odpowiednikami.
+            </p>
+            <p>
+              Nowoczesne urządzenia do obróbki metalu oraz sprzęt pomiarowy
+              pozwalają regenerować zużyte elementy lub, w przypadku takiej
+              konieczności, wytworzyć elementy nowe.
+            </p>
+            <p>
+              Mając pełną świadomość faktu, iż czas realizacji usługi jest
+              kluczowy - dzięki przesłaniu do Nas próbki par tłokowych lub jej
+              uszkodzonych części, Klient otrzyma odpowiednik zgodnie ze ściśle
+              określonym harmonogramem, nie przekraczającym ustalonego terminu.
+              Produkt finalny nie ustępuje parametrami oryginalnemu produktowi
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <img src="images/design.png" alt="" />
+          </div>
+        </div>
+
+        <!--
+                <div class="row">
+
+                    <div class="col-md-5">
+                  
+                        
+                        <img src="images/design.png" alt="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/img1.jpg" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/img2.jpg" alt="">
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="col-md-7">
+                        <div class="about__content">
+                           
+                        </div>
+                    </div>
+                    
+                    
+                  
+    
+                    </div>
+                    -->
+      </div>
+    </div>
+
+    <section class="video">
+      <div class="container">
+        <h2 class="video__title">Wideo</h2>
+        <p class="video__subtitle">Proces produkcji</p>
+
+        <!--
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                    </div>
+                </div>
+                -->
+
+        <div class="row mb-4">
+          <div class="col-md-6">
+            <div class="frame-blc">
+                <iframe class="img" width="560" height="315" src="https://www.youtube.com/embed/26wo8QRS8ac?si=FkvNJbvBIZry-j_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="frame-blc">
+                <iframe
+                class="img"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/D4UAVO6WcM8?si=TREPxg27IeaiYxPj"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+            </div>
+          </div>
+
+          <!--
+                    <div class="col-md-6">
+
+                        <video controls>
+                            <source src="images/video2.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+
+        
+                    </div>
+-->
+        </div>
+      </div>
+    </section>
+
+    <div class="products" id="services">
+      <div class="container">
+        <!--
+                <h2 class="mb-3"></h2>
+                -->
+        <h2 class="products__title mt-5">Części do TNWC</h2>
+        <p class="products__subtitle">Pary tłokowe</p>
+
+        <div class="list row">
+          <div class="col-md-6 col-sm-12 row">
+            <div class="col-6">
+              <div class="item">
+                <img src="images/pairs/h.JPG" alt="" class="image" />
+                <div class="text">
+                  <h3 class="name">H-typ</h3>
+                  <p class="desc">
+                    Dostępne do odnowienia z powłoką galwaniczną oraz z nowym
+                    tłokiem
+                  </p>
+                  <!--<span class="price">000 грн</span>-->
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="item">
+                <img src="images/pairs/ve.JPG" alt="" class="image" />
+                <div class="text">
+                  <h3 class="name">VE-typ</h3>
+                  <p class="desc">
+                    Dostępne do odnowienia z powłoką galwaniczną
+                  </p>
+                  <!--<span class="price">000 грн</span>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 row">
+            <div class="col-6">
+              <div class="item">
+                <img src="images/pairs/a.JPG" alt="" class="image" />
+                <div class="text">
+                  <h3 class="name">A-typ</h3>
+                  <p class="desc">Dostępne do odnowienia z nowym tłokiem</p>
+                  <!--<span class="price">000 грн</span>-->
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="item">
+                <img src="images/pairs/p.JPG" alt="" class="image" />
+                <div class="text">
+                  <h3 class="name">P-typ</h3>
+                  <p class="desc">
+                    Dostępne do odnowienia z powłoką galwaniczną oraz z nowym
+                    tłokiem
+                  </p>
+                  <!--<span class="price">000 грн</span>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Kontakt</h2>
+            <ul class="contacts__list">
+              <li>
+                <i class="fas fa-phone"></i>
+                <a href="tel:+48696420496" class="">+48 696 420 496</a>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:technodieselpolska@gmail.com"
+                  >technodieselpolska@gmail.com</a
+                >
+              </li>
+              <!--
+                            <li>
+                                <i class="fas fa-map-marked-alt"></i> г. Чугуев, микрорайон Авиатор на территории ЧАРЗ
+                            </li>-->
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <!--
+                        <img src="images/gif1.gif" alt="">
+                        -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+        <div class="contact" id="contact">
+            <div class="container">
+                <div class="contact__header">
+                    <h2>Оставить заявку</h2>
+                    <p>Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+                </div>
+                <div class="contact__content">
+                    <form class="contact__form">
+                        <div class="row">
+                            <div class="contact__field">
+                                <label for="name" class="contact__label">Ваше имя</label>
+                                <input type="text" class="contact__input" name="name" required>
+                            </div>
+                            <div class="contact__field">
+                                <label for="name" class="contact__label">Ваш телефон</label>
+                                <input id="phone" type="text" class="contact__input" name="phone" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="contact__field">
+                                <label for="description" class="contact__label">Описание</label>
+                                <textarea class="contact__textarea" rows="8" name="description" required></textarea>
+                            </div>
+                        </div>
+                            
+                        
+                        <input type="submit" class="contact__button" value="Оставить заявку">
+                    </form> 
+                </div>
+            </div>
+        </div>
+
+
+<img src="images/gif1.gif" alt="">
+
+-->
+
+    <div class="gallery" id="gallery">
+      <div class="gallery__slider swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a data-fancybox="gallery" href="images/details.JPG"
+              ><img src="images/details.JPG" alt="" class="gallery__img"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a data-fancybox="gallery" href="images/photo-1.jpg"
+              ><img src="images/photo-1.jpg" alt="" class="gallery__img"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a data-fancybox="gallery" href="images/photo-2.jpg"
+              ><img src="images/photo-2.jpg" alt="" class="gallery__img"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a data-fancybox="gallery" href="images/photo-3.jpg"
+              ><img src="images/photo-3.jpg" alt="" class="gallery__img"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a data-fancybox="gallery" href="images/photo-4.jpg"
+              ><img src="images/photo-4.jpg" alt="" class="gallery__img"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a data-fancybox="gallery" href="images/photo-5.jpg"
+              ><img src="images/photo-5.jpg" alt="" class="gallery__img"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a data-fancybox="gallery" href="images/photo-12.jpg"
+              ><img src="images/photo-12.jpg" alt="" class="gallery__img"
+            /></a>
+          </div>
+
+          <div class="swiper-slide">
+            <a data-fancybox="gallery" href="images/img1.jpg"
+              ><img src="images/img1.jpg" alt="" class="gallery__img"
+            /></a>
+          </div>
+
+          <div class="swiper-slide">
+            <a data-fancybox="gallery" href="images/img2.jpg"
+              ><img src="images/img2.jpg" alt="" class="gallery__img"
+            /></a>
+          </div>
+        </div>
+        <!--
+                <div class="swiper-scrollbar"></div>
+-->
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="brand">
+            <img src="images/logo.svg" alt="Лого" class="logo" />
+            <div class="brand__text">
+              <span class="brand__title">Techno Diesel Polska</span>
+              <span class="brand__subtitle">par tłokowych</span>
+            </div>
+          </div>
+          <!-- <div class="social">
+            <ul class="social__list">
+              <li class="social__item">
+                <a class="social__link" href="https://instagram.com/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a class="social__link" href="https://facebook.com/">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+        <div class="copyright">
+          <span class="copyright__text">&copy; 2022 Techno Diesel Polska</span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="thank-you">
+      <h2>Дякую!</h2>
+      <p>Ми зв'яжемося з вами найближчим часом.</p>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <script src="js/jquery.inputmask.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.bpopup.min.js"></script>
+    <script src="https://kit.fontawesome.com/0fa770da34.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

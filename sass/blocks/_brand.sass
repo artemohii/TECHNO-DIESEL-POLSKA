@@ -1,0 +1,30 @@
+.brand
+    display: flex
+    align-items: center
+    z-index: 1000
+    white-space: nowrap
+    .logo
+        height: 42px
+    &__text
+        display: flex
+        flex-direction: column
+        text-transform: uppercase
+        margin: 0 0 0 8px
+    &__title
+        color: #ffffff
+        margin: 0
+        font-size: 18px
+        font-weight: 800
+        line-height: 1.1
+    &__subtitle
+        color: #888888
+        font-size: 13px
+        line-height: 1
+        font-weight: 600
+    @media (max-width: 370px)
+        .logo
+            height: 36px
+        &__title
+            font-size: 15px
+        &__subtitle
+            font-size: 11px

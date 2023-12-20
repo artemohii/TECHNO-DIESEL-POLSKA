@@ -1,0 +1,84 @@
+.hero
+    display: flex
+    margin: auto 0
+    //height: 420px
+    background-color: #1e1e1f
+    height: auto!important
+    .container
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+    &__content
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        text-align: center
+        max-width: 620px
+        padding: calc(64px + 32px) 15px 45px 15px
+    &__title
+        color: #ffffff
+        font-size: 32px
+        
+    &__description
+        color: rgba(255,255,255,0.6)
+        font-size: 16px
+        margin: 4px 0 0 0
+        line-height: 24px
+    &__contact
+        display: flex
+        margin: 24px 0 0 0
+
+    &__link
+        display: block
+        color: #ffffff
+        font-size: 14px
+        font-weight: 900
+        text-decoration: none
+        margin: 0px 0 0 0
+        &:hover
+            color: #ffffff
+    &__button
+        display: flex
+        align-items: center
+        justify-content: center
+        background-color: #7289da
+        box-shadow: 0 2px 6px 0 rgba(0,0,0,.2)
+        color: #ffffff
+        height: 45px
+        width: 220px
+        border-radius: 3px
+        text-decoration: none
+        transition: 0.25s
+        opacity: 1
+        svg
+            fill: #ffffff
+            height: 20px
+            margin: 0 5px 0 0
+        &:hover
+            //transform: translateY(1px)
+            color: #ffffff 
+            opacity: .9
+        &:not(:first-child)
+            margin: 0 0 0 10px
+
+    @media (max-width: 760px)
+        height: 560px
+        .container
+            flex-direction: column
+        &__content
+            text-align: center  
+        &__button
+            width: 180px
+            &:not(:first-child)
+                margin: 10px 0 0 0
+    @media (max-width: 420px)
+        &__contact
+            flex-direction: column
+            align-items: center
+            .col
+                &:not(:first-child)
+                    margin: 10px 0 0 0
+        &__button
+            width: 220px

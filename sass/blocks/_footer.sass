@@ -1,0 +1,28 @@
+.footer
+    margin: 32px 0 0 0
+    &__content
+        display: flex
+        justify-content: space-between
+    .brand
+        &__title
+            color: #000000
+    .social
+        &__list
+            list-style: none
+        &__item
+            &:not(:first-child)
+                margin: 0 0 0 8px
+        &__link
+            color: #888888
+            font-size: 24px
+            text-decoration: none
+            transition: color 0.25s
+            &:hover
+                color: #ffffff
+    .copyright
+        padding: 8px 0
+        margin: 10px 0 0 0
+        border-top: 1px solid #888888
+        &__text
+            color: #888888
+            font-size: 13px

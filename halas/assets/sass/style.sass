@@ -1,0 +1,251 @@
+$orange: #F46242
+    
+body
+    font-family: 'Manrope', sans-serif
+
+    color: #11131C
+
+    font-size: 16px
+    line-height: 1.375
+
+.page
+    min-width: 320px
+
+
+.btn
+    padding: 0.75em 0.915em
+    font-size: 24px
+    font-weight: 700
+    line-height: 1.375
+    border-radius: 16px
+    &-halas
+        color: #ffffff
+        background-color: $orange
+        &:hover
+            color: $orange!important
+            background-color: rgba(244, 98, 66, 0.2)!important
+
+
+    &-halas2
+        color: $orange
+        background-color: rgba(244, 98, 66, 0.2)
+        backdrop-filter: blur(4px)
+        &:hover
+            color: #ffffff!important
+            background-color: $orange!important
+
+    @media ( max-width: 91399px )
+        font-size: 18px
+
+    @media ( max-width: 991px )
+        font-size: 13px
+        border-radius: 9px
+        padding: 0.65em 0.915em
+    
+    @media ( max-width: 349px )
+        font-size: 12px
+
+        
+        
+
+.hero
+    background-image: url(../img/bg.png)
+    background-size: cover
+    background-position: top center
+    background-repeat: no-repeat
+
+    padding: 108px 0 24px 0
+
+    height: 100vh
+    min-height: 960px
+    max-height: 1200px
+
+
+ 
+
+    .container
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        justify-content: flex-start
+        height: 100%
+    &__header
+        display: flex
+        align-items: center
+        justify-content: flex-start
+        margin: 0 0 60px 0
+
+        &-flag
+            width: 61px
+        &-contact
+            background: rgba(244, 98, 66, 0.16)
+            backdrop-filter: blur(8.5px)
+            border-radius: 33.5px
+            margin: 0 0 0 44px
+
+            font-size: 26px
+            font-weight: 600
+            line-height: 36px
+            
+            color: $orange
+
+            padding: 12px 36px
+
+            a
+                color: $orange
+                text-decoration: none
+
+
+    &__title
+        font-family: 'Mabry Pro'
+        font-weight: 500
+        font-size: 74px
+        line-height: 1.15
+
+        margin: 0 0 3rem 0
+        span
+            color: $orange
+
+    &__fundraising
+        &-caption
+            font-size: 32px
+            font-weight: 600
+            margin: 0 0 1.25rem 0
+        &-amount
+            font-family: 'Mabry Pro'
+            font-weight: 500
+            font-size: 74px
+            line-height: 1
+            margin: 0 0 1rem 0
+        &-date
+            font-weight: 600
+            font-size: 32px
+
+            color: #767676
+            margin: 0 0 84px 0
+
+    &__row
+        margin: 0 0 96px 0
+        .btn:not(:last-child)
+            margin-right: 36px
+                
+    &__footer
+        display: flex
+        align-items: center
+
+        margin: auto 0 0 0
+
+        .logo
+            display: block
+            &__img
+                width: 48px
+
+        &-copyright
+            margin: 0 0 0 28px
+            font-size: 22px
+            font-weight: 600
+                
+
+    @media ( max-width: 91399px )
+        padding: 81px 0 18px 0
+        min-height: 640px
+        max-height: 1000px
+        &__header
+            margin: 0 0 42px 0
+            &-flag
+                width: 46px
+            &-contact
+                margin: 0 0 0 32px
+                font-size: 19.5px
+                line-height: 27px
+                padding: 9px 27px
+
+        &__title
+            font-size: 55.5px
+            margin: 0 0 2.25rem
+
+        &__fundraising
+            &-caption
+                font-size: 24px
+                margin: 0 0 1rem 0
+            &-amount
+                font-size: 55.5px
+                margin: 0 0 0.75rem 0
+            &-date
+                font-size: 24px
+                margin: 0 0 4rem 0
+
+        &__row
+            margin: 0 0 36px 0
+            .btn:not(:last-child)
+                margin-right: 20px
+
+        &__footer
+            .logo
+                &__img
+                    width: 36px
+            &-copyright
+                font-size: 16.5px
+                margin: 0 0 0 20px
+
+    @media ( max-width: 991px )
+        background-image: url(../img/bg-mob.png)
+        background-size: auto 100%
+        padding: 38px 0 24px 0
+
+        text-align: center
+
+        min-height: 620px
+
+        max-height: 920px
+
+        .container
+            align-items: center
+        &__header
+            flex-direction: column
+            margin: 0 0 20px 0
+            &-flag
+                height: 28px
+                width: auto
+            &-contact
+                margin: 16px 0 0 0
+                font-size: 14px
+                padding: 4px 18px
+
+        &__title
+            font-size: 28px
+            margin: 0 0 20px 0
+        
+        &__fundraising
+            &-caption
+                font-size: 13px
+                margin: 0 0 9px 0
+            &-amount
+                font-size: 32px
+                margin: 0 0 9px 0
+            &-date
+                font-size: 13px
+                margin: 0 0 28px 0
+
+        &__row
+            margin: 0 0 170px 0
+            .btn
+                margin: 6px 4px
+            .btn:not(:last-child)
+                margin-right: unset
+
+        &__footer
+            justify-content: center
+            text-align: left
+            .logo
+                &__img
+                    width: 29px
+            &-copyright
+                font-size: 13px
+                margin: 0 0 0 14px
+    @media ( max-width: 349px )
+        &__header
+            &-contact
+                font-size: 13px
+        &__title
+            font-size: 25px

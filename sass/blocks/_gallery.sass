@@ -1,0 +1,38 @@
+.gallery
+    display: flex
+    flex-direction: column
+    padding: 50px 0
+    //background-color: #7289DA
+    &__slider
+        max-width: 1920px
+        margin: 0 auto
+    .swiper
+        &-container
+            width: 100%
+            //max-width: 960px
+        &-slide
+            display: flex
+            align-items: center
+
+           
+            overflow: hidden
+            border-radius: 4px
+            box-shadow: 0 9px 30px 0 rgba(35,38,42,.1)
+            margin: 30px 0
+            width: min-content
+            &:first-child
+                margin-left: 20px
+            &:last-child
+                margin-right: 20px
+   
+            
+    &__img
+        transition: transform 0.25s
+        height: 240px
+        
+    @media (max-width: 760px)
+        &__img
+            height: 200px
+        .swiper
+            &-slide
+                //width: 336px!important
